@@ -40,3 +40,16 @@ if __name__ == "__main__":
     else:
         print("Action must be 'upload' or 'download'.")
         sys.exit(1)
+
+"""
+Next Steps:
+Add Real Data: Replace dummy file paths and parameters with your actual references (e.g., STAR index path, real GTF, adapter sequences).
+
+Parameterize Further: For bigger workflows, you might expand with command-line arguments or a config file (like YAML).
+
+Extend for Single-Cell: If you do scRNA-seq specifically, integrate steps for e.g. cellranger count or specialized single-cell alignment tools.
+
+Automate Summaries/Plots: Possibly add a quick R script to generate QC plots or to run Seurat.
+
+Expand AWS usage: If you run analysis from an AWS EC2 instance, you might put the entire pipeline on an EC2 machine and store final results in S3.
+"""
