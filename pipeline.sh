@@ -1,3 +1,12 @@
+#Explanation
+
+1. FastQC checks the raw reads.
+
+2. Cutadapt trims adapters.
+
+3. STAR aligns reads to a reference genome.
+
+4. featureCounts quantifies reads mapping to genes (for a typical bulk RNA-seq approach).
 
 ---
 
