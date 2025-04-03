@@ -8,6 +8,9 @@
 
 4. featureCounts quantifies reads mapping to genes (for a typical bulk RNA-seq approach).
 
+For true single-cell or single-nuclei data, you might use Cell Ranger (10x Genomics) or Excerpt for single-cell protocols, plus specialized downstream steps (e.g., Seurat in R) after generating a gene-cell matrix.
+
+
 ---
 
 ### **pipeline.sh** (Shell Script Example)
